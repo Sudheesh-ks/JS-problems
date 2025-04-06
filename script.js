@@ -547,7 +547,7 @@
 
 // Capitalize First letter
 
-// const name = ['rasha','riza']
+// const name = ['ronaldo','roman reigns']
 
 // let altered = name.map((elem) => elem.replace(/r/,"R"))
 
@@ -570,7 +570,7 @@
 
 // Largest string
 
-// let arr = ['rasha','shibily','maneesha']
+// let arr = ['sudhi','arun','anand']
 
 // let largest = arr.reduce((acc,curr) => (acc.length<curr.length)?curr:acc)
 // console.log(largest);
