@@ -725,6 +725,14 @@
 //   })
 
 
+// Reversing Nested Array
+
+
+// const arr = [[1, 2], [3, 4], [5, 6]];
+
+// const reversed = arr.reverse().map(inner => inner.reverse())
+// console.log(reversed);
+
 
 
 // -----------------------------------------------NODE JS--------------------------------------------------------
