@@ -734,6 +734,15 @@
 // console.log(reversed);
 
 
+// Largest Element in an array using reduce
+
+// const arr = [10, 5, 30, 2];
+
+// const largest = arr.reduce((acc,elem) => (acc > elem) ? acc : elem, -Infinity)
+
+// console.log(largest)
+
+
 
 // -----------------------------------------------NODE JS--------------------------------------------------------
 
