@@ -797,6 +797,31 @@
     // })
 
 
+// Read File
+
+// fs.readFile('welcome.txt','utf8',(err,data) => {
+//     if(err){
+//         console.log(err)
+//     }else{
+//         console.log(data)
+//     }
+// })
+
+
+// Append File
+
+// fs.appendFile('welcome.txt','how are you', (err) => {
+//     if(err){
+//         console.log(err);
+        
+//     }else{
+//         console.log("file successfully appended");
+        
+//     }
+// })
+
+
+
 // make directory
 
 // fs.mkdir('hello',(err) => {
