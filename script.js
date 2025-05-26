@@ -1,4 +1,4 @@
-// INCLUDES
+   // INCLUDES
 
 
 // let arr = [1,2,3,4,5];
@@ -376,6 +376,14 @@
 
 // printFullname.apply(Person1,["Karinkallathani","India"]);
 // printFullname.apply(Person2,["London","UK"]);
+
+
+// BIND
+
+
+// const bindFunction = printFullname.bind(Person1,"Kerala","India");
+// bindFunction()
+
 
 
 // Prime numbers
