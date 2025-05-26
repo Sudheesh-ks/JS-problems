@@ -357,7 +357,6 @@
 
 // let printFullname = function(hometown,country){
 //     console.log(this.firstname+" "+this.lastname+" from "+hometown+" in "+country);
-    
 // }
 
 // printFullname.apply(name2,["Mumbai","India"])
