@@ -345,21 +345,35 @@
 
 //   Call Apply Bind
 
-// let name = {
+// let Person1 = {
 //     firstname:"sudheesh",
 //     lastname:"ks"
 // }
 
-// let name2 = {
+// let Person2 = {
 //     firstname:"muhammed",
 //     lastname:"Fathah"
 // }
+
+
+// CALL
+
+// let printFullname = function(){
+//     console.log('I am' + " " + this.firstName + " " + this.lastName)
+// }
+
+
+// printFullname.call(Person1);
+// printFullname.call(Person2);
+
+
+// APPLY
 
 // let printFullname = function(hometown,country){
 //     console.log(this.firstname+" "+this.lastname+" from "+hometown+" in "+country);
 // }
 
-// printFullname.apply(name2,["Mumbai","India"])
+// printFullname.apply(Persib2,["Mumbai","India"])
 
 // let fullName = printFullname()
 
