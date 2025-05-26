@@ -370,12 +370,12 @@
 // APPLY
 
 // let printFullname = function(hometown,country){
-//     console.log(this.firstname+" "+this.lastname+" from "+hometown+" in "+country);
+//     console.log('I am' + " " + this.firstName + " " + this.lastName + " " + "from" + " " + hometown + " " + "in" + " " + country)
 // }
 
-// printFullname.apply(Persib2,["Mumbai","India"])
 
-// let fullName = printFullname()
+// printFullname.apply(Person1,["Karinkallathani","India"]);
+// printFullname.apply(Person2,["London","UK"]);
 
 
 // Prime numbers
