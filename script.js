@@ -781,6 +781,24 @@
 
 
 
+// Largest word in a sentence
+
+// function longestWord(str){
+//     let sentence = str.split(' ');
+//     let longest = '';
+//     for(let words of sentence){
+//         if(words.length > longest.length){
+//             longest = words
+//         }
+//     }
+//     return longest
+// }
+
+
+// console.log(longestWord("i am sudhi")) 
+
+
+
 // -----------------------------------------------NODE JS--------------------------------------------------------
 
 
