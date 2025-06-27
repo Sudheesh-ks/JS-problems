@@ -764,6 +764,22 @@
 // console.log(largest)
 
 
+// Unique vowels from a string
+
+// function findUniqueVowels(str){
+//     const vowels = "aeiou";
+//     const result = new Set();
+//     for(let letter of str.toLowerCase()){
+//         if(vowels.includes(letter)){
+//             result.add(letter);
+//         }
+//     }
+//     return [...result];
+// }
+
+// console.log(findUniqueVowels("sudhi"))
+
+
 
 // -----------------------------------------------NODE JS--------------------------------------------------------
 
