@@ -798,6 +798,140 @@
 // console.log(longestWord("i am sudhi")) 
 
 
+// DOM ID
+
+// var heading = document.createElement("h1");
+
+// function create(){
+//     heading.innerHTML = "Created successfully"
+//     document.body.appendChild(heading);
+// }
+
+// function remove(){
+//     heading.remove()
+// }
+
+//  Change color
+
+
+// var heading = document.getElementById('head1')
+// var btn = document.getElementById('btn');
+
+// btn.addEventListener("click",changeColor);
+// heading.addEventListener("mouseover",changeBg)
+
+// function changeColor(){
+//     heading.style.color = "red";
+// }
+
+// function changeBg(){
+//     heading.style.backgroundColor = "yellow";
+// }
+
+
+
+// Delete last pair in an object
+
+// const originalObject = {
+//     a: 1,
+//     b: 2,
+//     c: 3,
+//     d: 4
+// };
+
+// let key = Object.keys(originalObject);
+// let lastkey = key[key.length - 1]
+
+// delete originalObject[lastkey]
+
+// console.log(originalObject);
+
+
+// Sum of nested objects
+
+
+// const nestedObject = {
+//     a: 1,
+//     b: {
+//         c: 2,
+//         d: {
+//             e: 3,
+//             f: 4
+//         }
+//     },
+//     g: 5
+// };
+
+// let sum = 0;
+
+// function findSum(obj){
+//     for(let key in obj){
+//         if(typeof(obj[key]) === "object"){
+//             findSum(obj[key]);
+//         }else{
+//             sum += obj[key]
+//         }
+//     }
+// }
+
+// findSum(nestedObject)
+
+// console.log(sum);
+
+
+// Promise with async
+
+
+// function fetchData(){
+//     return new Promise((resolve,reject) => {
+//         setTimeout(() => {
+//             resolve("Data fetched successfully");
+//         },2000)
+//     })
+// }
+
+// async function getData(){
+//     console.log("fetching Data...........");
+//     let result = await fetchData();
+//     console.log(result);
+    
+    
+// }
+
+// getData()
+
+
+// clear Interval
+
+// function sayHello(){
+//     console.log("hello");
+    
+// }
+
+// let intervalId = setInterval(sayHello,1000)
+
+// setTimeout(() => {
+//     clearInterval(intervalId);
+//     console.log("interval stopped");
+    
+// },10000)
+
+
+// For getting all the possible combination of a string
+
+// function combinations(str) {
+//   let output = []
+//   for(let i = 0; i <= str.length; i++){
+//     for(let j = i + 1; j <= str.length; j++){
+//       output.push(str.slice(i,j))
+//     }
+//   }
+//   return output
+// }
+
+// console.log(combinations("Sudhi"))
+
+
 
 // -----------------------------------------------NODE JS--------------------------------------------------------
 
@@ -991,120 +1125,4 @@
 // })
 
 
-// DOM ID
 
-// var heading = document.createElement("h1");
-
-// function create(){
-//     heading.innerHTML = "Created successfully"
-//     document.body.appendChild(heading);
-// }
-
-// function remove(){
-//     heading.remove()
-// }
-
-//  Change color
-
-
-// var heading = document.getElementById('head1')
-// var btn = document.getElementById('btn');
-
-// btn.addEventListener("click",changeColor);
-// heading.addEventListener("mouseover",changeBg)
-
-// function changeColor(){
-//     heading.style.color = "red";
-// }
-
-// function changeBg(){
-//     heading.style.backgroundColor = "yellow";
-// }
-
-
-
-// Delete last pair in an object
-
-// const originalObject = {
-//     a: 1,
-//     b: 2,
-//     c: 3,
-//     d: 4
-// };
-
-// let key = Object.keys(originalObject);
-// let lastkey = key[key.length - 1]
-
-// delete originalObject[lastkey]
-
-// console.log(originalObject);
-
-
-// Sum of nested objects
-
-
-// const nestedObject = {
-//     a: 1,
-//     b: {
-//         c: 2,
-//         d: {
-//             e: 3,
-//             f: 4
-//         }
-//     },
-//     g: 5
-// };
-
-// let sum = 0;
-
-// function findSum(obj){
-//     for(let key in obj){
-//         if(typeof(obj[key]) === "object"){
-//             findSum(obj[key]);
-//         }else{
-//             sum += obj[key]
-//         }
-//     }
-// }
-
-// findSum(nestedObject)
-
-// console.log(sum);
-
-
-// Promise with async
-
-
-// function fetchData(){
-//     return new Promise((resolve,reject) => {
-//         setTimeout(() => {
-//             resolve("Data fetched successfully");
-//         },2000)
-//     })
-// }
-
-// async function getData(){
-//     console.log("fetching Data...........");
-//     let result = await fetchData();
-//     console.log(result);
-    
-    
-// }
-
-// getData()
-
-
-// clear Interval
-
-// function sayHello(){
-//     console.log("hello");
-    
-// }
-
-// let intervalId = setInterval(sayHello,1000)
-
-// setTimeout(() => {
-//     clearInterval(intervalId);
-//     console.log("interval stopped");
-    
-// },10000)
