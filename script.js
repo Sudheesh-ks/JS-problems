@@ -933,6 +933,26 @@
 
 
 
+// Inserting at a random position
+
+// let arr = [1,2,3,4]
+// let pos = 2
+// let val = 0
+// arr.splice(pos,0,val);
+
+// console.log(arr);
+
+
+// Deleting at a random position
+
+// let array = [1,2,3,4]
+// let elem = 2
+// array.splice(elem,1)
+
+// console.log(array)
+
+
+
 // -----------------------------------------------NODE JS--------------------------------------------------------
 
 
