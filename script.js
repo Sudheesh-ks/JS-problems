@@ -867,7 +867,7 @@
 // function findSum(obj){
 //     for(let key in obj){
 //         if(typeof(obj[key]) === "object"){
-//             findSum(obj[key]);
+//             sum += findSum(obj[key]);
 //         }else{
 //             sum += obj[key]
 //         }
